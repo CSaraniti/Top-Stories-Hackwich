@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0770BE9A22D4E51900209A94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770BE9922D4E51900209A94 /* AppDelegate.swift */; };
+		0770BE9C22D4E51900209A94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770BE9B22D4E51900209A94 /* ViewController.swift */; };
+		0770BE9F22D4E51900209A94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0770BE9D22D4E51900209A94 /* Main.storyboard */; };
+		0770BEA122D4E51C00209A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0770BEA022D4E51C00209A94 /* Assets.xcassets */; };
+		0770BEA422D4E51C00209A94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0770BEA222D4E51C00209A94 /* LaunchScreen.storyboard */; };
+		0770BEAF22D4E51C00209A94 /* Top_Stories_HackwichTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770BEAE22D4E51C00209A94 /* Top_Stories_HackwichTests.swift */; };
+		0770BEBA22D4E51C00209A94 /* Top_Stories_HackwichUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770BEB922D4E51C00209A94 /* Top_Stories_HackwichUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0770BEAB22D4E51C00209A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0770BE8E22D4E51900209A94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0770BE9522D4E51900209A94;
+			remoteInfo = "Top Stories Hackwich";
+		};
+		0770BEB622D4E51C00209A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0770BE8E22D4E51900209A94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0770BE9522D4E51900209A94;
+			remoteInfo = "Top Stories Hackwich";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0770BE9622D4E51900209A94 /* Top Stories Hackwich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Top Stories Hackwich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0770BE9922D4E51900209A94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0770BE9B22D4E51900209A94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0770BE9E22D4E51900209A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0770BEA022D4E51C00209A94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0770BEA322D4E51C00209A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0770BEA522D4E51C00209A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0770BEAA22D4E51C00209A94 /* Top Stories HackwichTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Top Stories HackwichTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0770BEAE22D4E51C00209A94 /* Top_Stories_HackwichTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top_Stories_HackwichTests.swift; sourceTree = "<group>"; };
+		0770BEB022D4E51C00209A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0770BEB522D4E51C00209A94 /* Top Stories HackwichUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Top Stories HackwichUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0770BEB922D4E51C00209A94 /* Top_Stories_HackwichUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top_Stories_HackwichUITests.swift; sourceTree = "<group>"; };
+		0770BEBB22D4E51C00209A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0770BE9322D4E51900209A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0770BEA722D4E51C00209A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0770BEB222D4E51C00209A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0770BE8D22D4E51900209A94 = {
+			isa = PBXGroup;
+			children = (
+				0770BE9822D4E51900209A94 /* Top Stories Hackwich */,
+				0770BEAD22D4E51C00209A94 /* Top Stories HackwichTests */,
+				0770BEB822D4E51C00209A94 /* Top Stories HackwichUITests */,
+				0770BE9722D4E51900209A94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0770BE9722D4E51900209A94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0770BE9622D4E51900209A94 /* Top Stories Hackwich.app */,
+				0770BEAA22D4E51C00209A94 /* Top Stories HackwichTests.xctest */,
+				0770BEB522D4E51C00209A94 /* Top Stories HackwichUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0770BE9822D4E51900209A94 /* Top Stories Hackwich */ = {
+			isa = PBXGroup;
+			children = (
+				0770BE9922D4E51900209A94 /* AppDelegate.swift */,
+				0770BE9B22D4E51900209A94 /* ViewController.swift */,
+				0770BE9D22D4E51900209A94 /* Main.storyboard */,
+				0770BEA022D4E51C00209A94 /* Assets.xcassets */,
+				0770BEA222D4E51C00209A94 /* LaunchScreen.storyboard */,
+				0770BEA522D4E51C00209A94 /* Info.plist */,
+			);
+			path = "Top Stories Hackwich";
+			sourceTree = "<group>";
+		};
+		0770BEAD22D4E51C00209A94 /* Top Stories HackwichTests */ = {
+			isa = PBXGroup;
+			children = (
+				0770BEAE22D4E51C00209A94 /* Top_Stories_HackwichTests.swift */,
+				0770BEB022D4E51C00209A94 /* Info.plist */,
+			);
+			path = "Top Stories HackwichTests";
+			sourceTree = "<group>";
+		};
+		0770BEB822D4E51C00209A94 /* Top Stories HackwichUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0770BEB922D4E51C00209A94 /* Top_Stories_HackwichUITests.swift */,
+				0770BEBB22D4E51C00209A94 /* Info.plist */,
+			);
+			path = "Top Stories HackwichUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0770BE9522D4E51900209A94 /* Top Stories Hackwich */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0770BEBE22D4E51C00209A94 /* Build configuration list for PBXNativeTarget "Top Stories Hackwich" */;
+			buildPhases = (
+				0770BE9222D4E51900209A94 /* Sources */,
+				0770BE9322D4E51900209A94 /* Frameworks */,
+				0770BE9422D4E51900209A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Top Stories Hackwich";
+			productName = "Top Stories Hackwich";
+			productReference = 0770BE9622D4E51900209A94 /* Top Stories Hackwich.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0770BEA922D4E51C00209A94 /* Top Stories HackwichTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0770BEC122D4E51C00209A94 /* Build configuration list for PBXNativeTarget "Top Stories HackwichTests" */;
+			buildPhases = (
+				0770BEA622D4E51C00209A94 /* Sources */,
+				0770BEA722D4E51C00209A94 /* Frameworks */,
+				0770BEA822D4E51C00209A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0770BEAC22D4E51C00209A94 /* PBXTargetDependency */,
+			);
+			name = "Top Stories HackwichTests";
+			productName = "Top Stories HackwichTests";
+			productReference = 0770BEAA22D4E51C00209A94 /* Top Stories HackwichTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0770BEB422D4E51C00209A94 /* Top Stories HackwichUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0770BEC422D4E51C00209A94 /* Build configuration list for PBXNativeTarget "Top Stories HackwichUITests" */;
+			buildPhases = (
+				0770BEB122D4E51C00209A94 /* Sources */,
+				0770BEB222D4E51C00209A94 /* Frameworks */,
+				0770BEB322D4E51C00209A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0770BEB722D4E51C00209A94 /* PBXTargetDependency */,
+			);
+			name = "Top Stories HackwichUITests";
+			productName = "Top Stories HackwichUITests";
+			productReference = 0770BEB522D4E51C00209A94 /* Top Stories HackwichUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0770BE8E22D4E51900209A94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Carlo Saraniti";
+				TargetAttributes = {
+					0770BE9522D4E51900209A94 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					0770BEA922D4E51C00209A94 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 0770BE9522D4E51900209A94;
+					};
+					0770BEB422D4E51C00209A94 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 0770BE9522D4E51900209A94;
+					};
+				};
+			};
+			buildConfigurationList = 0770BE9122D4E51900209A94 /* Build configuration list for PBXProject "Top Stories Hackwich" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0770BE8D22D4E51900209A94;
+			productRefGroup = 0770BE9722D4E51900209A94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0770BE9522D4E51900209A94 /* Top Stories Hackwich */,
+				0770BEA922D4E51C00209A94 /* Top Stories HackwichTests */,
+				0770BEB422D4E51C00209A94 /* Top Stories HackwichUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0770BE9422D4E51900209A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0770BEA422D4E51C00209A94 /* LaunchScreen.storyboard in Resources */,
+				0770BEA122D4E51C00209A94 /* Assets.xcassets in Resources */,
+				0770BE9F22D4E51900209A94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0770BEA822D4E51C00209A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0770BEB322D4E51C00209A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0770BE9222D4E51900209A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0770BE9C22D4E51900209A94 /* ViewController.swift in Sources */,
+				0770BE9A22D4E51900209A94 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0770BEA622D4E51C00209A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0770BEAF22D4E51C00209A94 /* Top_Stories_HackwichTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0770BEB122D4E51C00209A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0770BEBA22D4E51C00209A94 /* Top_Stories_HackwichUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0770BEAC22D4E51C00209A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0770BE9522D4E51900209A94 /* Top Stories Hackwich */;
+			targetProxy = 0770BEAB22D4E51C00209A94 /* PBXContainerItemProxy */;
+		};
+		0770BEB722D4E51C00209A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0770BE9522D4E51900209A94 /* Top Stories Hackwich */;
+			targetProxy = 0770BEB622D4E51C00209A94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0770BE9D22D4E51900209A94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0770BE9E22D4E51900209A94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0770BEA222D4E51C00209A94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0770BEA322D4E51C00209A94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0770BEBC22D4E51C00209A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0770BEBD22D4E51C00209A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0770BEBF22D4E51C00209A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Top Stories Hackwich/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Carlo-s-Calculator-Emporium.Top-Stories-Hackwich";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0770BEC022D4E51C00209A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Top Stories Hackwich/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Carlo-s-Calculator-Emporium.Top-Stories-Hackwich";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0770BEC222D4E51C00209A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZMUNPP5BA;
+				INFOPLIST_FILE = "Top Stories HackwichTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Carlo-s-Calculator-Emporium.Top-Stories-HackwichTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Top Stories Hackwich.app/Top Stories Hackwich";
+			};
+			name = Debug;
+		};
+		0770BEC322D4E51C00209A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZMUNPP5BA;
+				INFOPLIST_FILE = "Top Stories HackwichTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Carlo-s-Calculator-Emporium.Top-Stories-HackwichTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Top Stories Hackwich.app/Top Stories Hackwich";
+			};
+			name = Release;
+		};
+		0770BEC522D4E51C00209A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Top Stories HackwichUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Carlo-s-Calculator-Emporium.Top-Stories-HackwichUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Top Stories Hackwich";
+			};
+			name = Debug;
+		};
+		0770BEC622D4E51C00209A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Top Stories HackwichUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Carlo-s-Calculator-Emporium.Top-Stories-HackwichUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Top Stories Hackwich";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0770BE9122D4E51900209A94 /* Build configuration list for PBXProject "Top Stories Hackwich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0770BEBC22D4E51C00209A94 /* Debug */,
+				0770BEBD22D4E51C00209A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0770BEBE22D4E51C00209A94 /* Build configuration list for PBXNativeTarget "Top Stories Hackwich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0770BEBF22D4E51C00209A94 /* Debug */,
+				0770BEC022D4E51C00209A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0770BEC122D4E51C00209A94 /* Build configuration list for PBXNativeTarget "Top Stories HackwichTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0770BEC222D4E51C00209A94 /* Debug */,
+				0770BEC322D4E51C00209A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0770BEC422D4E51C00209A94 /* Build configuration list for PBXNativeTarget "Top Stories HackwichUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0770BEC522D4E51C00209A94 /* Debug */,
+				0770BEC622D4E51C00209A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0770BE8E22D4E51900209A94 /* Project object */;
+}
