@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0766AB4922D4E85B00067B1C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0766AB4822D4E85B00067B1C /* SwiftyJSON.swift */; };
+		0766AB4B22D4F54E00067B1C /* ArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0766AB4A22D4F54E00067B1C /* ArticlesViewController.swift */; };
 		0770BE9A22D4E51900209A94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770BE9922D4E51900209A94 /* AppDelegate.swift */; };
 		0770BE9C22D4E51900209A94 /* SourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770BE9B22D4E51900209A94 /* SourcesViewController.swift */; };
 		0770BE9F22D4E51900209A94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0770BE9D22D4E51900209A94 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		0766AB4822D4E85B00067B1C /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		0766AB4A22D4F54E00067B1C /* ArticlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewController.swift; sourceTree = "<group>"; };
 		0770BE9622D4E51900209A94 /* Top Stories Hackwich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Top Stories Hackwich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0770BE9922D4E51900209A94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0770BE9B22D4E51900209A94 /* SourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourcesViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				0770BE9922D4E51900209A94 /* AppDelegate.swift */,
 				0770BE9B22D4E51900209A94 /* SourcesViewController.swift */,
 				0770BE9D22D4E51900209A94 /* Main.storyboard */,
+				0766AB4A22D4F54E00067B1C /* ArticlesViewController.swift */,
 				0770BEA022D4E51C00209A94 /* Assets.xcassets */,
 				0770BEA222D4E51C00209A94 /* LaunchScreen.storyboard */,
 				0770BEA522D4E51C00209A94 /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0766AB4922D4E85B00067B1C /* SwiftyJSON.swift in Sources */,
+				0766AB4B22D4F54E00067B1C /* ArticlesViewController.swift in Sources */,
 				0770BE9C22D4E51900209A94 /* SourcesViewController.swift in Sources */,
 				0770BE9A22D4E51900209A94 /* AppDelegate.swift in Sources */,
 			);
